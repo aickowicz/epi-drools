@@ -3,5 +3,9 @@
  "http://java.sun.com/dtd/web-app_2_3.dtd" >
 
 <web-app>
-  <display-name>Archetype Created Web Application</display-name>
+	<display-name>EPI Drools</display-name>
+
+	<listener>
+		<listener-class>com.epiuse.drools.util.DroolsContextListener</listener-class>
+	</listener>
 </web-app>
